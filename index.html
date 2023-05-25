@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="world" data-world>
+        <div class="info">
+            <label for="timer">Speed: </label>
+            <div id="timer" data-timer>0</div>
+            <label for="score">Score: </label>
+            <div id="score" data-score>0</div>
+        </div>
+         
+        <div class="start-screen" data-start-screen>Press any key to start!</div>
+        <img src="imgs/ground.png" alt="" class="ground" data-ground>
+        <img src="imgs/ground.png" alt="" class="ground" data-ground>
+        <img src="imgs/dino-stationary.png" alt="" class="dino" data-dino>
+    </div>
+    <audio src="./sound/die.wav" class="die"></audio>
+    <audio src="./sound/point.wav" class="point"></audio>
+    <audio src="./sound/jump.wav" class="jump"></audio>
+    <script type="module" src="./script/app.js"></script>
+</body>
+</html>
